@@ -72,6 +72,9 @@ void llpivot(Node *&head, Node *&smaller, Node *&larger, int pivot);
 template <typename Comp>
 Node* llfilter(Node* head, Comp pred);
 
+// Append helper function to add the target node to the end of the lsit
+void append(Node*& head, Node*& node); 
+
 //*****************************************************************************
 // Since template implementations should be in a header file, we will
 // implement the above function now.
@@ -84,6 +87,24 @@ Node* llfilter(Node* head, Comp pred)
     // Provide your implementation below
     //*********************************************
 
+    // Base case is when head is nullptr
+    if (head == nullptr) {
+        return nullptr;
+    }
+
+    head->next = llfilter(head->next, pred);
+
+    // If pred returns true that means the current head's val is meets the criteria and needs to be removed
+    if (pred(head->val)) {
+
+        // Save the next node
+        Node* temp = head->next;
+        delete head; 
+        return temp; // Return the next node to be examined with pred
+    } else {
+        // If it doesn't meet the criteria, keep it
+        return head;
+    }
 
 }
 

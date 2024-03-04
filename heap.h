@@ -1,5 +1,7 @@
 #ifndef HEAP_H
 #define HEAP_H
+// include the vector class for further use
+#include <vector>
 #include <functional>
 #include <stdexcept>
 
@@ -61,13 +63,30 @@ public:
 
 private:
   /// Add whatever helper functions and data members you need below
+  std::vector<T> data;
+  int ary;
+  PComparator comp;
 
+  void trickleUp(size_t idx);
+
+  void trickleDown(size_t idx);
 
 
 
 };
 
 // Add implementation of member functions here
+template<typename T, typename PComparator>
+Heap<T, PComparator>::Heap(int m, PComparator c) : ary(m), comp(c), data() {
+    // Constructor implementation
+}
+
+template <typename T, typename PComparator>
+void Heap<T, PComparator>::push(const T& item) {
+    data.push_back(item);
+    trickleUp(data.size() - 1);
+}
+
 
 
 // We will start top() for you to handle the case of 
@@ -81,12 +100,12 @@ T const & Heap<T,PComparator>::top() const
     // ================================
     // throw the appropriate exception
     // ================================
-
+    throw std::underflow_error("Heap is empty");
 
   }
   // If we get here we know the heap has at least 1 item
   // Add code to return the top element
-
+  return data.front();
 
 
 }
@@ -101,15 +120,50 @@ void Heap<T,PComparator>::pop()
     // ================================
     // throw the appropriate exception
     // ================================
-
+    throw std::underflow_error("Heap is empty");
 
   }
 
-
+  data.front() = data.back();
+  data.pop_back();
+  trickleDown(0);
 
 }
 
+template <typename T, typename PComparator>
+void Heap<T, PComparator>::trickleUp(size_t idx) {
+    while (idx > 0) {
+        size_t parentIdx = (idx - 1) / ary;
+        if (comp(data[idx], data[parentIdx])) {
+            std::swap(data[idx], data[parentIdx]);
+            idx = parentIdx;
+        } else {
+            break;
+        }
+    }
+}
 
+template <typename T, typename PComparator>
+void Heap<T, PComparator>::trickleDown(size_t idx) {
+    size_t childIdx = ary * idx + 1;
+    while (childIdx < data.size()) {
+        // Find the smallest/largest among the node and all its children
+        size_t minMaxIdx = idx;
+        for (int i = 0; i < ary && i + childIdx < data.size(); ++i) {
+            if (comp(data[childIdx + i], data[minMaxIdx])) {
+                minMaxIdx = childIdx + i;
+            }
+        }
+        // If the smallest/largest is not the parent, swap and continue
+        if (minMaxIdx != idx) {
+            std::swap(data[idx], data[minMaxIdx]);
+            idx = minMaxIdx;
+            childIdx = ary * idx + 1;
+        } else {
+            break;
+        }
+    }
+}
 
 #endif
 

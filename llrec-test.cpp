@@ -66,7 +66,11 @@ void dealloc(Node* head)
 //   Add any helper functions or
 //   function object struct declarations
 // -----------------------------------------------
-
+struct IsEven {
+    bool operator()(int value) {
+        return value % 2 == 0;
+    }
+};
 
 
 
@@ -87,9 +91,28 @@ int main(int argc, char* argv[])
 
     // Test out your linked list code
 
+    // Test llfilter with IsOdd predicate to remove odd numbers
+    Node* filtered = llfilter(head, IsEven());
+    cout << "Filtered list (odd numbers): ";
+    print(filtered);
+    dealloc(filtered);
 
+    // Reset the list for the next test
+    head = readList(argv[1]);
 
-    
+    // Example test for llpivot - adjust based on actual implementation
+    Node *smaller = nullptr, *larger = nullptr;
+    int pivot = 6; // Example pivot
+    llpivot(head, smaller, larger, pivot);
+    cout << "List with elements <= " << pivot << ": ";
+    print(smaller);
+    cout << "List with elements > " << pivot << ": ";
+    print(larger);
+
+    // Clean up
+    dealloc(smaller);
+    dealloc(larger);
+
     return 0;
 
 }
