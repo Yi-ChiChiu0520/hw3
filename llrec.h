@@ -73,7 +73,7 @@ template <typename Comp>
 Node* llfilter(Node* head, Comp pred);
 
 // Append helper function to add the target node to the end of the lsit
-void append(Node*& list, Node*& node); 
+//void append(Node*& list, Node*& node); 
 
 void llpivotRecursive(Node*& head, Node*& smaller, Node*& larger, int pivot, Node*& lastSmaller, Node*& lastLarger); 
 //*****************************************************************************

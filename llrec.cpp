@@ -3,18 +3,21 @@
 //*********************************************
 // Provide your implementation of llpivot below
 //*********************************************
-void append(Node*& list, Node* node) {
+/*void appendRecursive(Node*& list, Node* node) {
     if (list == nullptr) {
+        // Base case: If the list is empty, the node becomes the new head.
         list = node;
+        node->next = nullptr; // Ensure the appended node's next is nullptr.
+    } else if (list->next == nullptr) {
+        // If the next node is null, append here.
+        list->next = node;
+        node->next = nullptr;
     } else {
-        Node* current = list;
-        while (current->next != nullptr) {
-            current = current->next;
-        }
-        current->next = node;
+        // Recursive call to move to the next node in the list.
+        appendRecursive(list->next, node);
     }
-    node->next = nullptr; // Ensure the appended node's next is nullptr.
-}
+}*/
+
 
 void llpivotRecursive(Node*& head, Node*& smaller, Node*& larger, int pivot, Node*& lastSmaller, Node*& lastLarger) {
     if (head == nullptr) return; // Base case: end of the list
