@@ -1,0 +1,5 @@
+Stack.BasicString 0 0
+Stack.RandomInt 0 0
+---
+Stack.BasicString
+Stack.RandomInt

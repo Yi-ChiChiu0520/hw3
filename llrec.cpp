@@ -3,41 +3,52 @@
 //*********************************************
 // Provide your implementation of llpivot below
 //*********************************************
-void append(Node*& list, Node*& node) {
+void append(Node*& list, Node* node) {
     if (list == nullptr) {
-        // If the list is empty, the node becomes the new head.
         list = node;
-        node->next = nullptr; // Ensure the appended node's next is nullptr.
     } else {
-        // If the list is not empty, iterate to the end and add the node.
         Node* current = list;
         while (current->next != nullptr) {
-            current = current->next; 
+            current = current->next;
         }
-        current->next = node; // the current last node's next will be the target node
-        node->next = nullptr; 
+        current->next = node;
     }
+    node->next = nullptr; // Ensure the appended node's next is nullptr.
 }
 
-void llpivot(Node*& head, Node*& smaller, Node*& larger, int pivot) {
-    // Base case is when head is nullptr
-    if (head == nullptr) {
-        return;
-    }
+void llpivotRecursive(Node*& head, Node*& smaller, Node*& larger, int pivot, Node*& lastSmaller, Node*& lastLarger) {
+    if (head == nullptr) return; // Base case: end of the list
 
-    // Save the next node
-    Node* nextNode = head->next;
+    Node* nextNode = head->next; // Save the next node
+    head->next = nullptr; // Detach the current node from the list
 
-    // Detach the current node from the list.
-    head->next = nullptr;
-
-    // if current node's value is smaller then pivot , add to smaller list
     if (head->val <= pivot) {
-        append(smaller, head);
+        if (smaller == nullptr) {
+            smaller = head; // Initialize smaller list with the current node
+            lastSmaller = head;
+        } else {
+            lastSmaller->next = head; // Append to the end of the smaller list
+            lastSmaller = head;
+        }
     } else {
-        // if current node's value is larger then pivot , add to larger list
-        append(larger, head);
+        if (larger == nullptr) {
+            larger = head; // Initialize larger list with the current node
+            lastLarger = head;
+        } else {
+            lastLarger->next = head; // Append to the end of the larger list
+            lastLarger = head;
+        }
     }
 
-    llpivot(nextNode, smaller, larger, pivot);
+    llpivotRecursive(nextNode, smaller, larger, pivot, lastSmaller, lastLarger); // Recursive call
+}
+
+// Wrapper function for llpivot to hide the details of lastSmaller and lastLarger from the caller
+void llpivot(Node*& head, Node*& smaller, Node*& larger, int pivot) {
+    smaller = nullptr;
+    larger = nullptr;
+    Node* lastSmaller = nullptr;
+    Node* lastLarger = nullptr;
+    llpivotRecursive(head, smaller, larger, pivot, lastSmaller, lastLarger);
+    head = nullptr; // Since the original list is partitioned, the head is now null.
 }

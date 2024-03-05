@@ -1,0 +1,59 @@
+Start testing: Mar 05 00:32 UTC
+----------------------------------------------------------
+1/23 Testing: Pivot.Empty
+1/23 Test: Pivot.Empty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Empty"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Empty" start time: Mar 05 00:32 UTC
+Output:
+----------------------------------------------------------
+==753== Memcheck, a memory error detector
+==753== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==753== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==753== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Empty
+==753== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Empty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Empty
+/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests.cpp:63: Failure
+Expected equality of these values:
+  nullptr
+    Which is: NULL
+  small
+    Which is: 0x1ffefffd78
+/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests.cpp:64: Failure
+Expected equality of these values:
+  nullptr
+    Which is: NULL
+  large
+    Which is: 0x1ffefffd78
+[  FAILED  ] Pivot.Empty (87 ms)
+[----------] 1 test from Pivot (99 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (152 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Pivot.Empty
+
+ 1 FAILED TEST
+==753== 
+==753== HEAP SUMMARY:
+==753==     in use at exit: 0 bytes in 0 blocks
+==753==   total heap usage: 481 allocs, 481 frees, 148,209 bytes allocated
+==753== 
+==753== All heap blocks were freed -- no leaks are possible
+==753== 
+==753== For counts of detected and suppressed errors, rerun with: -v
+==753== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.64 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Empty" end time: Mar 05 00:32 UTC
+"Pivot.Empty" time elapsed: 00:00:01
+----------------------------------------------------------
+

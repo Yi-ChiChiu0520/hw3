@@ -1,0 +1,803 @@
+Start testing: Mar 05 00:10 UTC
+----------------------------------------------------------
+1/50 Testing: Pivot.Empty
+1/50 Test: Pivot.Empty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Empty"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Empty" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Empty" end time: Mar 05 00:10 UTC
+"Pivot.Empty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/50 Testing: Pivot.Size1SmallEmpty
+2/50 Test: Pivot.Size1SmallEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size1SmallEmpty"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size1SmallEmpty" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Size1SmallEmpty" end time: Mar 05 00:10 UTC
+"Pivot.Size1SmallEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/50 Testing: Pivot.Size1LargeEmpty
+3/50 Test: Pivot.Size1LargeEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size1LargeEmpty"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size1LargeEmpty" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Size1LargeEmpty" end time: Mar 05 00:10 UTC
+"Pivot.Size1LargeEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/50 Testing: Pivot.Size2SmallLarge
+4/50 Test: Pivot.Size2SmallLarge
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size2SmallLarge"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size2SmallLarge" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Size2SmallLarge" end time: Mar 05 00:10 UTC
+"Pivot.Size2SmallLarge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/50 Testing: Pivot.Size2LargeSmall
+5/50 Test: Pivot.Size2LargeSmall
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size2LargeSmall"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size2LargeSmall" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Size2LargeSmall" end time: Mar 05 00:10 UTC
+"Pivot.Size2LargeSmall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/50 Testing: Pivot.Size3LargeSmallLarge
+6/50 Test: Pivot.Size3LargeSmallLarge
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3LargeSmallLarge"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size3LargeSmallLarge" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Size3LargeSmallLarge" end time: Mar 05 00:10 UTC
+"Pivot.Size3LargeSmallLarge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/50 Testing: Pivot.Size3SmallLargeSmall
+7/50 Test: Pivot.Size3SmallLargeSmall
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3SmallLargeSmall"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size3SmallLargeSmall" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Size3SmallLargeSmall" end time: Mar 05 00:10 UTC
+"Pivot.Size3SmallLargeSmall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/50 Testing: Pivot.Size3LargeLargeSmall
+8/50 Test: Pivot.Size3LargeLargeSmall
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3LargeLargeSmall"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size3LargeLargeSmall" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Size3LargeLargeSmall" end time: Mar 05 00:10 UTC
+"Pivot.Size3LargeLargeSmall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/50 Testing: Pivot.Size6SmallThenLarge
+9/50 Test: Pivot.Size6SmallThenLarge
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size6SmallThenLarge"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size6SmallThenLarge" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Size6SmallThenLarge" end time: Mar 05 00:10 UTC
+"Pivot.Size6SmallThenLarge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/50 Testing: Pivot.Size6LargeThenSmall
+10/50 Test: Pivot.Size6LargeThenSmall
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size6LargeThenSmall"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size6LargeThenSmall" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Size6LargeThenSmall" end time: Mar 05 00:10 UTC
+"Pivot.Size6LargeThenSmall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/50 Testing: Pivot.Nominal
+11/50 Test: Pivot.Nominal
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Nominal"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Nominal" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.Nominal" end time: Mar 05 00:10 UTC
+"Pivot.Nominal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/50 Testing: Pivot.SameValues
+12/50 Test: Pivot.SameValues
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.SameValues"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.SameValues" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.SameValues" end time: Mar 05 00:10 UTC
+"Pivot.SameValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/50 Testing: Pivot.NoCopySameNodeCheck
+13/50 Test: Pivot.NoCopySameNodeCheck
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.NoCopySameNodeCheck"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.NoCopySameNodeCheck" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Pivot.NoCopySameNodeCheck" end time: Mar 05 00:10 UTC
+"Pivot.NoCopySameNodeCheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/50 Testing: Filter.EmptyList
+14/50 Test: Filter.EmptyList
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.EmptyList"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.EmptyList" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.EmptyList" end time: Mar 05 00:10 UTC
+"Filter.EmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/50 Testing: Filter.Size1_F
+15/50 Test: Filter.Size1_F
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size1_F"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size1_F" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.Size1_F" end time: Mar 05 00:10 UTC
+"Filter.Size1_F" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/50 Testing: Filter.Size1_nF
+16/50 Test: Filter.Size1_nF
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size1_nF"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size1_nF" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.Size1_nF" end time: Mar 05 00:10 UTC
+"Filter.Size1_nF" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/50 Testing: Filter.Size2_F_nF
+17/50 Test: Filter.Size2_F_nF
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size2_F_nF"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size2_F_nF" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.Size2_F_nF" end time: Mar 05 00:10 UTC
+"Filter.Size2_F_nF" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/50 Testing: Filter.Size2_nF_F
+18/50 Test: Filter.Size2_nF_F
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size2_nF_F"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size2_nF_F" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.Size2_nF_F" end time: Mar 05 00:10 UTC
+"Filter.Size2_nF_F" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/50 Testing: Filter.Size3_nF_F_nF
+19/50 Test: Filter.Size3_nF_F_nF
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size3_nF_F_nF"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size3_nF_F_nF" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.Size3_nF_F_nF" end time: Mar 05 00:10 UTC
+"Filter.Size3_nF_F_nF" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/50 Testing: Filter.Size3_F_nF_F
+20/50 Test: Filter.Size3_F_nF_F
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size3_F_nF_F"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size3_F_nF_F" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.Size3_F_nF_F" end time: Mar 05 00:10 UTC
+"Filter.Size3_F_nF_F" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/50 Testing: Filter.SameNodeCheck
+21/50 Test: Filter.SameNodeCheck
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.SameNodeCheck"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.SameNodeCheck" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.SameNodeCheck" end time: Mar 05 00:10 UTC
+"Filter.SameNodeCheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/50 Testing: Filter.MultipleCalls
+22/50 Test: Filter.MultipleCalls
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.MultipleCalls"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.MultipleCalls" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.MultipleCalls" end time: Mar 05 00:10 UTC
+"Filter.MultipleCalls" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/50 Testing: Filter.CompareWithLlrec
+23/50 Test: Filter.CompareWithLlrec
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.CompareWithLlrec"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.CompareWithLlrec" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Filter.CompareWithLlrec" end time: Mar 05 00:10 UTC
+"Filter.CompareWithLlrec" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/50 Testing: Stack.BasicString
+24/50 Test: Stack.BasicString
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.BasicString"
+Directory: /home/codio/workspace/hw3/hw3_tests/stack_tests
+"Stack.BasicString" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Stack.BasicString" end time: Mar 05 00:10 UTC
+"Stack.BasicString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/50 Testing: Stack.RandomInt
+25/50 Test: Stack.RandomInt
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.RandomInt"
+Directory: /home/codio/workspace/hw3/hw3_tests/stack_tests
+"Stack.RandomInt" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Stack.RandomInt" end time: Mar 05 00:10 UTC
+"Stack.RandomInt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/50 Testing: HeapTest.ConstructionDestruction
+26/50 Test: HeapTest.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ConstructionDestruction"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ConstructionDestruction" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ConstructionDestruction" end time: Mar 05 00:10 UTC
+"HeapTest.ConstructionDestruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/50 Testing: HeapTest.InitiallyEmpty
+27/50 Test: HeapTest.InitiallyEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.InitiallyEmpty"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.InitiallyEmpty" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.InitiallyEmpty" end time: Mar 05 00:10 UTC
+"HeapTest.InitiallyEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/50 Testing: HeapTest.EmptyTopException
+28/50 Test: HeapTest.EmptyTopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyTopException"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.EmptyTopException" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.EmptyTopException" end time: Mar 05 00:10 UTC
+"HeapTest.EmptyTopException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/50 Testing: HeapTest.EmptyPopException
+29/50 Test: HeapTest.EmptyPopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyPopException"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.EmptyPopException" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.EmptyPopException" end time: Mar 05 00:10 UTC
+"HeapTest.EmptyPopException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/50 Testing: HeapTest.SingleItemNonempty
+30/50 Test: HeapTest.SingleItemNonempty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemNonempty"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SingleItemNonempty" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.SingleItemNonempty" end time: Mar 05 00:10 UTC
+"HeapTest.SingleItemNonempty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/50 Testing: HeapTest.SingleItemPush
+31/50 Test: HeapTest.SingleItemPush
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPush"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SingleItemPush" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.SingleItemPush" end time: Mar 05 00:10 UTC
+"HeapTest.SingleItemPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/50 Testing: HeapTest.SingleItemPushPop
+32/50 Test: HeapTest.SingleItemPushPop
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPushPop"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SingleItemPushPop" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.SingleItemPushPop" end time: Mar 05 00:10 UTC
+"HeapTest.SingleItemPushPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/50 Testing: HeapTest.TwoElementPush_LowPriFirst
+33/50 Test: HeapTest.TwoElementPush_LowPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_LowPriFirst"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.TwoElementPush_LowPriFirst" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.TwoElementPush_LowPriFirst" end time: Mar 05 00:10 UTC
+"HeapTest.TwoElementPush_LowPriFirst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/50 Testing: HeapTest.TwoElementPush_HighPriFirst
+34/50 Test: HeapTest.TwoElementPush_HighPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_HighPriFirst"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.TwoElementPush_HighPriFirst" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.TwoElementPush_HighPriFirst" end time: Mar 05 00:10 UTC
+"HeapTest.TwoElementPush_HighPriFirst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/50 Testing: HeapTest.Duplicates
+35/50 Test: HeapTest.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.Duplicates"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.Duplicates" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.Duplicates" end time: Mar 05 00:10 UTC
+"HeapTest.Duplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/50 Testing: HeapTest.NegativeElements
+36/50 Test: HeapTest.NegativeElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.NegativeElements"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.NegativeElements" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.NegativeElements" end time: Mar 05 00:10 UTC
+"HeapTest.NegativeElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/50 Testing: HeapTest.ThreeElementPush_0_5_10
+37/50 Test: HeapTest.ThreeElementPush_0_5_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_5_10"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_0_5_10" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_0_5_10" end time: Mar 05 00:10 UTC
+"HeapTest.ThreeElementPush_0_5_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/50 Testing: HeapTest.ThreeElementPush_0_10_5
+38/50 Test: HeapTest.ThreeElementPush_0_10_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_10_5"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_0_10_5" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_0_10_5" end time: Mar 05 00:10 UTC
+"HeapTest.ThreeElementPush_0_10_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/50 Testing: HeapTest.ThreeElementPush_5_0_10
+39/50 Test: HeapTest.ThreeElementPush_5_0_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_0_10"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_5_0_10" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_5_0_10" end time: Mar 05 00:10 UTC
+"HeapTest.ThreeElementPush_5_0_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/50 Testing: HeapTest.ThreeElementPush_5_10_0
+40/50 Test: HeapTest.ThreeElementPush_5_10_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_10_0"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_5_10_0" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_5_10_0" end time: Mar 05 00:10 UTC
+"HeapTest.ThreeElementPush_5_10_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/50 Testing: HeapTest.ThreeElementPush_10_0_5
+41/50 Test: HeapTest.ThreeElementPush_10_0_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_0_5"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_10_0_5" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_10_0_5" end time: Mar 05 00:10 UTC
+"HeapTest.ThreeElementPush_10_0_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/50 Testing: HeapTest.ThreeElementPush_10_5_0
+42/50 Test: HeapTest.ThreeElementPush_10_5_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_5_0"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_10_5_0" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_10_5_0" end time: Mar 05 00:10 UTC
+"HeapTest.ThreeElementPush_10_5_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/50 Testing: HeapTest.GreaterComparator
+43/50 Test: HeapTest.GreaterComparator
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.GreaterComparator"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.GreaterComparator" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.GreaterComparator" end time: Mar 05 00:10 UTC
+"HeapTest.GreaterComparator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/50 Testing: HeapTest.StringStorage
+44/50 Test: HeapTest.StringStorage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.StringStorage"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.StringStorage" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.StringStorage" end time: Mar 05 00:10 UTC
+"HeapTest.StringStorage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/50 Testing: HeapTest.FiveElementPush_TrinaryHeap
+45/50 Test: HeapTest.FiveElementPush_TrinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.FiveElementPush_TrinaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.FiveElementPush_TrinaryHeap" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.FiveElementPush_TrinaryHeap" end time: Mar 05 00:10 UTC
+"HeapTest.FiveElementPush_TrinaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/50 Testing: HeapTest.SixElementPush_QuaternaryHeap
+46/50 Test: HeapTest.SixElementPush_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SixElementPush_QuaternaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SixElementPush_QuaternaryHeap" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.SixElementPush_QuaternaryHeap" end time: Mar 05 00:10 UTC
+"HeapTest.SixElementPush_QuaternaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/50 Testing: HeapStress.50x50RandomElements_BinaryHeap
+47/50 Test: HeapStress.50x50RandomElements_BinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_BinaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.50x50RandomElements_BinaryHeap" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapStress.50x50RandomElements_BinaryHeap" end time: Mar 05 00:10 UTC
+"HeapStress.50x50RandomElements_BinaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/50 Testing: HeapStress.50x50RandomElements_QuaternaryHeap
+48/50 Test: HeapStress.50x50RandomElements_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.50x50RandomElements_QuaternaryHeap" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapStress.50x50RandomElements_QuaternaryHeap" end time: Mar 05 00:10 UTC
+"HeapStress.50x50RandomElements_QuaternaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/50 Testing: HeapStress.50x50RandomElements_DodecenaryHeap
+49/50 Test: HeapStress.50x50RandomElements_DodecenaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.50x50RandomElements_DodecenaryHeap" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapStress.50x50RandomElements_DodecenaryHeap" end time: Mar 05 00:10 UTC
+"HeapStress.50x50RandomElements_DodecenaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/50 Testing: HeapStress.2x2000RandomElements_Binary
+50/50 Test: HeapStress.2x2000RandomElements_Binary
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.2x2000RandomElements_Binary"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.2x2000RandomElements_Binary" start time: Mar 05 00:10 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"HeapStress.2x2000RandomElements_Binary" end time: Mar 05 00:10 UTC
+"HeapStress.2x2000RandomElements_Binary" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 05 00:10 UTC

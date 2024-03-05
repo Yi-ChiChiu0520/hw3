@@ -1,0 +1,101 @@
+Pivot.Empty 0 0
+Pivot.Size1SmallEmpty 0 0
+Pivot.Size1LargeEmpty 0 0
+Pivot.Size2SmallLarge 0 0
+Pivot.Size2LargeSmall 0 0
+Pivot.Size3LargeSmallLarge 0 0
+Pivot.Size3SmallLargeSmall 0 0
+Pivot.Size3LargeLargeSmall 0 0
+Pivot.Size6SmallThenLarge 0 0
+Pivot.Size6LargeThenSmall 0 0
+Pivot.Nominal 0 0
+Pivot.SameValues 0 0
+Pivot.NoCopySameNodeCheck 0 0
+Filter.EmptyList 0 0
+Filter.Size1_F 0 0
+Filter.Size1_nF 0 0
+Filter.Size2_F_nF 0 0
+Filter.Size2_nF_F 0 0
+Filter.Size3_nF_F_nF 0 0
+Filter.Size3_F_nF_F 0 0
+Filter.SameNodeCheck 0 0
+Filter.MultipleCalls 0 0
+Filter.CompareWithLlrec 0 0
+Stack.BasicString 0 0
+Stack.RandomInt 0 0
+HeapTest.ConstructionDestruction 0 0
+HeapTest.InitiallyEmpty 0 0
+HeapTest.EmptyTopException 0 0
+HeapTest.EmptyPopException 0 0
+HeapTest.SingleItemNonempty 0 0
+HeapTest.SingleItemPush 0 0
+HeapTest.SingleItemPushPop 0 0
+HeapTest.TwoElementPush_LowPriFirst 0 0
+HeapTest.TwoElementPush_HighPriFirst 0 0
+HeapTest.Duplicates 0 0
+HeapTest.NegativeElements 0 0
+HeapTest.ThreeElementPush_0_5_10 0 0
+HeapTest.ThreeElementPush_0_10_5 0 0
+HeapTest.ThreeElementPush_5_0_10 0 0
+HeapTest.ThreeElementPush_5_10_0 0 0
+HeapTest.ThreeElementPush_10_0_5 0 0
+HeapTest.ThreeElementPush_10_5_0 0 0
+HeapTest.GreaterComparator 0 0
+HeapTest.StringStorage 0 0
+HeapTest.FiveElementPush_TrinaryHeap 0 0
+HeapTest.SixElementPush_QuaternaryHeap 0 0
+HeapStress.50x50RandomElements_BinaryHeap 0 0
+HeapStress.50x50RandomElements_QuaternaryHeap 0 0
+HeapStress.50x50RandomElements_DodecenaryHeap 0 0
+HeapStress.2x2000RandomElements_Binary 0 0
+---
+Pivot.Empty
+Pivot.Size1SmallEmpty
+Pivot.Size1LargeEmpty
+Pivot.Size2SmallLarge
+Pivot.Size2LargeSmall
+Pivot.Size3LargeSmallLarge
+Pivot.Size3SmallLargeSmall
+Pivot.Size3LargeLargeSmall
+Pivot.Size6SmallThenLarge
+Pivot.Size6LargeThenSmall
+Pivot.Nominal
+Pivot.SameValues
+Pivot.NoCopySameNodeCheck
+Filter.EmptyList
+Filter.Size1_F
+Filter.Size1_nF
+Filter.Size2_F_nF
+Filter.Size2_nF_F
+Filter.Size3_nF_F_nF
+Filter.Size3_F_nF_F
+Filter.SameNodeCheck
+Filter.MultipleCalls
+Filter.CompareWithLlrec
+Stack.BasicString
+Stack.RandomInt
+HeapTest.ConstructionDestruction
+HeapTest.InitiallyEmpty
+HeapTest.EmptyTopException
+HeapTest.EmptyPopException
+HeapTest.SingleItemNonempty
+HeapTest.SingleItemPush
+HeapTest.SingleItemPushPop
+HeapTest.TwoElementPush_LowPriFirst
+HeapTest.TwoElementPush_HighPriFirst
+HeapTest.Duplicates
+HeapTest.NegativeElements
+HeapTest.ThreeElementPush_0_5_10
+HeapTest.ThreeElementPush_0_10_5
+HeapTest.ThreeElementPush_5_0_10
+HeapTest.ThreeElementPush_5_10_0
+HeapTest.ThreeElementPush_10_0_5
+HeapTest.ThreeElementPush_10_5_0
+HeapTest.GreaterComparator
+HeapTest.StringStorage
+HeapTest.FiveElementPush_TrinaryHeap
+HeapTest.SixElementPush_QuaternaryHeap
+HeapStress.50x50RandomElements_BinaryHeap
+HeapStress.50x50RandomElements_QuaternaryHeap
+HeapStress.50x50RandomElements_DodecenaryHeap
+HeapStress.2x2000RandomElements_Binary

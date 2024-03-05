@@ -46,7 +46,7 @@ public:
    * @throw std::underflow_error if the heap is empty
    */
   void pop();
-
+  
   /// returns true if the heap is empty
 
   /**
@@ -72,7 +72,6 @@ private:
   void trickleDown(size_t idx);
 
 
-
 };
 
 // Add implementation of member functions here
@@ -81,12 +80,27 @@ Heap<T, PComparator>::Heap(int m, PComparator c) : ary(m), comp(c), data() {
     // Constructor implementation
 }
 
+template<typename T, typename PComparator>
+Heap<T, PComparator>::~Heap() {
+    // No need to manually delete or clear the vector `data`,
+    // as its destructor will automatically take care of that.
+}
+
+template <typename T, typename PComparator>
+bool Heap<T, PComparator>::empty() const {
+    return data.empty();
+}
+
 template <typename T, typename PComparator>
 void Heap<T, PComparator>::push(const T& item) {
     data.push_back(item);
     trickleUp(data.size() - 1);
 }
 
+template <typename T, typename PComparator>
+size_t Heap<T, PComparator>::size() const {
+    return data.size();
+}
 
 
 // We will start top() for you to handle the case of 

@@ -1,0 +1,35 @@
+Start testing: Mar 05 00:33 UTC
+----------------------------------------------------------
+1/2 Testing: Stack.BasicString
+1/2 Test: Stack.BasicString
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.BasicString"
+Directory: /home/codio/workspace/hw3/hw3_tests/stack_tests
+"Stack.BasicString" start time: Mar 05 00:33 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Stack.BasicString" end time: Mar 05 00:33 UTC
+"Stack.BasicString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Stack.RandomInt
+2/2 Test: Stack.RandomInt
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.RandomInt"
+Directory: /home/codio/workspace/hw3/hw3_tests/stack_tests
+"Stack.RandomInt" start time: Mar 05 00:33 UTC
+Output:
+----------------------------------------------------------
+valgrind: /home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests: No such file or directory
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Stack.RandomInt" end time: Mar 05 00:33 UTC
+"Stack.RandomInt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 05 00:33 UTC

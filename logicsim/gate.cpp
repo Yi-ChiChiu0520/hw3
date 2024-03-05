@@ -99,19 +99,19 @@ Event* NotGate::update(uint64_t current_time)
     char state = 'X'; // Default to unknown
     Event* e = nullptr;
 
-    char in = m_inputs[0]->getState(); // Get the state of the single input
-    if (in == '0')
-    {
-        state = '1'; // Invert 0 to 1
-    }
-    else if (in == '1')
-    {
-        state = '0'; // Invert 1 to 0
-    }
-    else
-    {
-        state = 'X'; // 'X' remains 'X'
-    }
+	for(auto w : m_inputs)
+	{
+		char in = w->getState();
+		if(in == '1')
+		{
+			state = '0';
+			break;
+		}
+		else if(in == '0')
+		{
+			state = '1';
+		}
+	}
 
     if (state != m_current_state)
     {

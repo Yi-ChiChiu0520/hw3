@@ -26,6 +26,8 @@ Circuit::~Circuit()
     {
         delete i;
     }
+    // delete m_pq;
+    // m_pq.~();
 }
 
 void Circuit::test()
